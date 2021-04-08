@@ -28,6 +28,13 @@ const handleUserInput = function() {
       connection.write('Move: right');
     }
 
+    if (key === 'p') {
+      connection.write('Say: herp');
+    }
+    if (key === 'o') {
+      connection.write('Say: derp');
+    }
+
   });
 }
 
